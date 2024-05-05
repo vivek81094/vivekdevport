@@ -24,20 +24,15 @@ margin-right: 5%;
     font-family: var(--font-roboto);
     font-size: 72px;
     font-weight: 900;
-    margin-bottom: 23px;    
-    /* background: linear-gradient(90deg, rgba(255, 255, 255, 1)70%, rgba(255, 255, 255, 0)120% );
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; */
+    margin-bottom: 15px;    
 }
 
 .heading{
     font-family: var(--color-text);
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 500;
-    color: var(--color-text);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1)70%, rgba(255, 255, 255, 0)120% );
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    color: #66b5fc; 
+    
 }
 
 .description{
