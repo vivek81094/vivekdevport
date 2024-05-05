@@ -1,0 +1,51 @@
+.container{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+height: 450px;
+width: 450px;
+background-color: rgb(246, 246, 247);
+margin: auto;
+}
+
+.progressbar{
+    background-color: palegreen;
+    width: 150px;
+    height: 150px;
+position: relative;
+/* left: 0; */
+}
+
+.box-1{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /* left: 0; */
+    right: 100px;
+}
+
+/* 
+.progressbar{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    background: conic-gradient(#66fcf1 50deg, #0b0c10 55deg);
+    position: relative;
+}
+
+.progressbar::before{
+content: "";  
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; 
+    position: absolute;
+    background-color: aliceblue;
+} */

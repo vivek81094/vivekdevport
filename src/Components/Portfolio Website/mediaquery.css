@@ -1,0 +1,236 @@
+@media screen and (max-width: 600px){
+
+    #devider{
+       margin-top: 25px;
+       margin-bottom: 25px;
+    }
+    .navbar {
+        width: 100%;
+        height: 20vw;
+        /* position: fixed; */
+    }
+
+    .navbar > h1{
+        margin-left: 15px;
+        font-size: .6rem;
+    }
+
+    .menu{
+        
+        font-size: 0.6rem;
+        margin-right: 40px;
+    }
+    
+    .navbar ul li{
+        margin: 0 8px;
+    }
+
+    .buttons{
+        margin-left: -60px;
+    }  
+
+    .firstsection{
+        margin-top: 150px;
+        flex-direction: column;
+        /* height: 85vh; */
+        justify-content: start;
+        margin-bottom: 90px;
+    }
+
+    .image{
+        position: relative;
+    }
+
+ 
+
+    .left_intro{
+        width: 100%;
+        
+    }
+
+    .intro{
+        font-size: 1.5rem;
+        height: 35vw;
+        
+    }
+
+    .image img{
+        /* width: 90%; */
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .btn{
+        font-size: 0.5rem;
+        height: 32px;
+    }
+    
+
+  /* <!-- --------------------------------------second section -------------------------------------- --> */
+    /* <!-- --------------------------------------second section -------------------------------------- --> */
+
+    .secondsection{
+position: relative;
+top: 50px;
+        /* height: 85vh; */
+        justify-content: start;
+        /* margin-top: -21px; */
+        margin-bottom: 122px;
+    }
+
+
+    .image_about {
+        width: 0;
+        height: 0;
+        /* position: relative; */
+    }
+    .text_about h3{
+
+        line-height: 25px;
+    }
+
+    .text_about{
+        font-size: .6rem;
+        width: 100%;
+    }
+
+    /* <!-- --------------------------------------third section -------------------------------------- --> */
+    /* <!-- --------------------------------------third section -------------------------------------- --> */
+
+    .skills_type{
+        font-size: .6rem;
+        margin-top: 120px;
+    }
+
+    .skills_type>h1{
+        font-size: 1rem;
+    }
+
+    .thirdsection{
+        position: relative;
+top: -8px;
+        /* height: 85vh; */
+        font-size: .6rem;
+        padding: 0px 0px;
+        margin-bottom: 545px;
+    }
+
+    .progress_t .info{
+        font-size: .5rem;
+    }
+
+    .progress_p{
+
+grid-template-rows: repeat(4, 40vw);
+  grid-template-columns: repeat(1, 0vw);
+  font-size: .5rem;
+    }
+
+    .pie{
+        height: 72px;
+        width: 72px;
+    }
+
+    .pie + span{
+        margin: 20px -50px;
+    }
+
+    .redial_progress{
+        font-size: 1rem;
+    }
+
+    .pie::before{
+
+        height: 64px;
+  width: 64px;
+    }
+
+/* -------------------------fourth section */
+/* -------------------------fourth section */
+
+.projects{
+    margin-top: 120px;
+    font-size: .6rem;
+    /* margin-bottom: 40px; */
+}
+
+.fourthsection{
+    position: relative;
+    flex-wrap: wrap;
+    top: -145px;
+    /* margin-bottom: 118px; */
+    height: 110vh;
+    /* margin-top: -385px; */
+    margin-bottom: 110px;
+   
+}
+
+.mainbox_project{
+    /* grid-template-rows: repeat(3, 30vw); */
+  /* grid-template-columns: repeat(2, 4vw); */
+  grid-template-rows: repeat(6, 50vw);
+  grid-template-columns: repeat(1, 50vw);
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* margin-top: -75px; */
+  row-gap: 20px;
+  overflow: scroll;
+  height: 160vw;
+}
+
+
+.content-p>h2{
+    font-size: 1rem;
+}
+
+.content-p>p{
+    font-size: .9rem;
+}
+
+.project-link{
+   
+    height: 0;
+    width: 0;
+}
+/*--------------------- fifthsection ----------------------------------*/
+/*--------------------- fifthsection ----------------------------------*/
+
+.fifthsection{
+    position: relative;
+    top: 50px;
+    /* margin-top: 120px; */
+    margin-bottom: 90px;
+    /* height: 85vh; */
+}
+.mainbox_contacts{
+    display: grid;
+  /* grid-template-rows: repeat(1, 170vw); */
+  /* grid-template-columns: repeat(2, 46vw); */
+  grid-template-rows: repeat(2, 95vw);
+  grid-template-columns: repeat(1, 93vw);
+}
+
+.mainbox_contacts > box-c{ 
+    margin-left: -25px;
+    
+}
+
+.about_contact{
+    font-size: .6rem;
+}
+
+.box-c {
+
+    height: 88vw;
+}
+
+
+footer{
+
+    height: 50px;
+}
+footer p{
+    margin-top: 0px;
+}
+
+}

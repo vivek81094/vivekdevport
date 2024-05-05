@@ -1,0 +1,63 @@
+#clock {
+  height: 7vw;
+  width: 7vw;
+  position: relative;
+  /* margin: auto; */
+  left: 485px;
+  top: -190px;
+  border: 1px solid #66fcf1;
+  border-radius: 50%;
+  box-shadow: 1px 1px 11px 0px #66fcf1 inset;
+  /* box-shadow: 1px 1px 11px 0px #66fcf1 ; */
+}
+
+
+
+#hour, #min, #sec {
+    /* background-color: gray; */
+    
+    position: absolute;   
+    
+    transform-origin: bottom;
+}
+
+#hour {
+   background-color: rgb(163, 2, 2);
+  height: 22%;
+  width: 3%;
+  left: 50%;
+  top: 27%;
+  border-radius: 34%;
+}
+
+#min {
+   background-color: white;
+  height: 28%;
+  width: 3%;
+  left: 50%;
+  top: 21%;
+  border-radius: 34%;
+
+}
+
+#sec {
+  background-color: #66fcf1;
+  height: 34%;
+  width: 3%;
+  left: 50%;
+  top: 15%;
+  border-radius: 34%;
+    /* display: none; */
+}
+
+@media screen and (max-width: 600px){
+
+#clock{
+  position: relative;
+  height: 10vw;
+width: 10vw;
+  left: 150px;
+top: -230px;
+}
+
+}

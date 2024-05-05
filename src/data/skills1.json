@@ -1,0 +1,30 @@
+[
+  {
+    "title": "HTML",
+    "percentage": "80%",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "percentage": "70%",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "JAVASCRIPT",
+    "percentage": "60%",
+    "imageSrc": "skills/javascript.png"
+  },
+  
+  {
+    "title": "REACT",
+    "percentage": "60%",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "NODE JS",
+    "percentage": "50%",
+    "imageSrc": "skills/node.png"
+  }
+
+  
+]

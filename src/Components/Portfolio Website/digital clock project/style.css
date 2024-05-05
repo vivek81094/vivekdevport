@@ -1,0 +1,50 @@
+#container {
+background-color: aqua;
+background: url(clock.png)  no-repeat;
+background-size: cover;
+height: 25vw;
+width: 25vw;
+position: relative;
+margin: auto;
+}
+
+#hour, #min, #sec {
+    /* background-color: gray; */
+    
+    position: absolute;
+    
+    
+    transform-origin: bottom;
+}
+
+#hour {
+    background-color: black;
+    height: 25%;
+    width: 1%;
+    left: 49.5%;
+    top: 25%;
+    border-radius: 34%;
+    /* display: none; */
+}
+
+#min {
+    background-color: gray;
+    height: 33%;
+    width: 1%;
+    left: 49.5%;
+    top: 17%;
+    border-radius: 34%;
+    /* display: none; */
+
+}
+
+#sec {
+    background-color: red;
+    height: 37%;
+    width: 1%;
+    left: 49.5%;
+    top: 13%;
+    
+    border-radius: 34%;
+    /* display: none; */
+}

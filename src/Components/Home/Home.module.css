@@ -1,0 +1,134 @@
+@import "../../vars.css";
+
+
+.color{
+    color: #66b5fc; 
+}
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+margin-top: 130px;
+margin-left: 10%;
+margin-right: 10%;
+justify-content: space-between;
+
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    z-index: 1;
+    color: var(--color-text);
+}
+
+.title{
+    font-family: var(--font-roboto);
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    /* background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0)120%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+}
+
+.description{
+    font-family: var(--font-roboto);
+    font-size: 30px;
+    margin-bottom: 52px;
+    color: var(--color-text);
+}
+
+.contactBtn{
+    text-decoration: none;
+    background: var(--color-primary);
+    color: var(--color-text);
+    padding: 17px 26px;
+    border-radius: 100px;
+    font-family: var(--font-roboto);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    
+}
+
+.contactBtn:hover{
+    background-color: var(--color-hover);
+}
+
+.mainImg{
+    width: 30%;
+    z-index: 1;
+    /* margin-left: 3rem; */
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating{
+    0%{
+        transform: translate(0, 0px);
+    }
+    50%{
+        transform: translate(0, 10px);
+    }
+    100%{
+        transform: translate(0, -0px)
+
+    }
+}
+
+.topBlur{
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    top: -128px;
+    left: 10vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+
+.bottomBlur{
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    top: 246px;
+    /* right: -25vw; */
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+@media screen and (max-width:830px){
+    .container{
+        flex-direction: column-reverse;
+        
+    }
+
+    .content{
+        align-items: center;
+    }
+
+    .mainImg{
+        width: 50%;
+        margin-bottom: 30px;
+        display: none;
+        
+    }
+
+    
+}
+

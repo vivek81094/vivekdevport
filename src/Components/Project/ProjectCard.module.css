@@ -1,0 +1,104 @@
+@import '../../vars.css';
+
+
+
+.projectCard{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+border-radius: 10px;
+background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+box-shadow: 0 16px 14px 0 #04152d;
+padding: 18px 24px;
+max-width: 345px;
+width: 100%;
+
+}
+
+.projectImg:hover{
+    
+}
+
+.title2{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+}
+
+.description{
+    color: var(--color-text);
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    
+    /* padding: 15px 0; */
+}
+
+.desBtn{
+    
+    margin: .7rem 0;
+    padding: .4rem .6rem;
+    font-size: .8rem;
+    font-weight: 600;
+    font-family: var(--font-roboto);
+    color: var(--color-text);
+    background: var(--color-dark);
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.desBtn:hover{
+    font-size: .9rem;
+    /* background-color: var(--color-hover); */
+}
+
+.skillContainer{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+}
+
+.skillName{
+    font-size: 1rem;
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 10px 22px;
+    color: var(--color-text);
+}
+
+.projectImg{
+    width:100%;
+    height: 15rem;
+    border-radius: 2rem;
+    padding: .5rem 0;
+}
+
+.skillLinkBox{
+display: flex;
+align-items: end;
+    padding-top: 25px;
+    padding-bottom: 8 px;
+}
+
+.skillLink{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: var(--font-roboto);
+    font-weight: 600;
+    border-radius: 100px;
+    background: var(--color-primary);
+    padding: 10px 22px;
+    color: var(--color-text);   
+
+}
+
+.skillLink:hover{
+    background: var(--color-hover);
+}

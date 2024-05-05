@@ -1,0 +1,8 @@
+.btn:hover {
+cursor: pointer;
+
+input field mair required
+
+ico image
+
+submit:- onclick: new html file with output (Thanks you for filling my contact form)

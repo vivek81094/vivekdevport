@@ -1,0 +1,87 @@
+@import "../../vars.css";
+
+.container{
+    z-index: 1;
+    margin-top: 69px;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* margin-bottom: 5%; */
+    }
+
+.heading{
+    padding-top: 62px;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+    margin: 0 10%;
+}
+
+.column{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    /* margin-bottom: 10%;     */
+}
+
+.info{
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: var(--color-text);
+width: 70%;
+margin-top: 70px;
+margin-left: 10%;
+
+}
+
+.title{
+    font-family: var(--font-roboto);
+    font-size: 1rem;
+    color: var(--color-text);
+}
+.skillImg{
+    width: 15%;
+}
+
+.percentageBar{
+    width: 70%;
+    height: 6px;
+    background-color: #0b0c10;
+    /* border-radius: 10%; */
+    margin-top: 30px;
+    position: relative;
+    box-shadow: 1px 1px 11px 0px #66fcf1;
+    margin-left:10% ;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.colorBar {
+    /* width: 50%; */
+    height: 100%;
+    background-color: #66b5fc;
+    position: absolute;
+    /* left: 0; */
+    border-radius: 25px;
+
+    /* animation */
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1)forwards;
+}
+.color{
+    color: #66b5fc; 
+}
+
+@media screen and (max-width:830px) {
+    .title{
+             font-size: .5rem;
+
+       
+    }
+}

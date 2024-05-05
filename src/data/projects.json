@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Project A",
+    "imageSrc": "projects/p-1.jpg",
+    "description": "Food4U is a dynamic and user-friendly food delivery application developed using ReactJS, showcasing my expertise in ReactJS development.",
+    "description1": "This project aims to provide users with a smooth and easy-to-navigate platform to order their favorite meals.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://food4-u-tau.vercel.app/",
+    "source": "https://www.github.com"
+  },
+ 
+  {
+    "title": "Project B",
+    "imageSrc": "projects/p-3.jpg",
+    "description": "The EducationNest Website Content Management project involves the ongoing maintenance and content updates for the EducationNest platform. ",
+    "description1": "As a freelancer, I am responsible for ensuring that webpages are regularly updated with relevant and engaging content to enhance user experience and meet the platform's educational objectives.",
+    "skills": ["Wordpress"],
+    "demo": "https://educationnest.com/courses/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project C", 
+    "imageSrc": "projects/p-4.jpg",
+    "description": "As a freelance web developer, I collaborated with Natkhat Shala Therapy Center to design and maintain their online presence.",
+    "description1": "This project involved creating and regularly updating webpages to showcase the center's services, mission, and contact information.",
+    
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "http://127.0.0.1:5500/vivekdevport/src/Components/Portfolio%20Website/NATKHATSHALA/index.html",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project D",
+    "imageSrc": "projects/p-2.jpg",
+    "description": "This is a project of portfolio website.",
+    "description1": "",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://vivekdevport.online/#",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project E",
+    "imageSrc": "projects/p-5.jpg",
+    "description": "This is a project of Media Player",
+    "description1": "",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://vivekdevport.online/Media%20Player/index.html",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project F",
+    "imageSrc": "projects/p-6.jpg",
+    "description": "This is a project of tic-tac-toe game",
+    "description1": "",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://vivekdevport.online/tic-tac-toe%20project/index.html ",
+    "source": "https://www.github.com"
+  }
+  
+]
