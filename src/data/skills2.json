@@ -1,27 +1,21 @@
 [
+  
+ {
+    "title": "REACT",
+    "percentage": "60%",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "NODE JS",
+    "percentage": "50%",
+    "imageSrc": "skills/node.png"
+  },
+
   {
     "title": "FIGMA",
     "percentage": "60%",
     "imageSrc": "skills/figma.png"
-  },
-  {
-    "title": "PHOTOSHOP",
-    "percentage": "80%",
-    "imageSrc": "skills/photoshop.png"
-  },
-  {
-    "title": "CORELDRAW",
-    "percentage": "60%",
-    "imageSrc": "skills/corel.png"
-  },
-  {
-    "title": "ILLUSTRATOR",
-    "percentage": "50%",
-    "imageSrc": "skills/illustrator.png"
-  },
-  {
-    "title": "ADOBE PREMIER PRO",
-    "percentage": "50%",
-    "imageSrc": "skills/premierpro.png"
   }
+  
 ]
+

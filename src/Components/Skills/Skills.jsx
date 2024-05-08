@@ -11,7 +11,7 @@ const Skills = () => {
       </div>
       <div className={styles.column}> 
         
-<ul>
+<ul className={styles.skillColumn}>
 {skills1.map((skill, id)=>{
     return(
       <div key={id}>
@@ -27,7 +27,7 @@ const Skills = () => {
 })}
 
 </ul>
-<ul>
+<ul className={styles.skillColumn}>
 {skills2.map((skill, id)=>{
     return(
       <div key={id}>

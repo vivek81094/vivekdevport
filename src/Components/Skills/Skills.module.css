@@ -19,9 +19,14 @@
 
 .column{
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: space-between;
     /* margin-bottom: 10%;     */
+}
+
+.skillColumn{
+    width: 50%;
+    margin-bottom: 2rem;
 }
 
 .info{

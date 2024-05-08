@@ -13,18 +13,6 @@
     "title": "JAVASCRIPT",
     "percentage": "60%",
     "imageSrc": "skills/javascript.png"
-  },
-  
-  {
-    "title": "REACT",
-    "percentage": "60%",
-    "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "NODE JS",
-    "percentage": "50%",
-    "imageSrc": "skills/node.png"
   }
-
   
 ]
