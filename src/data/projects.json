@@ -12,10 +12,10 @@
   {
     "title": "Project B",
     "imageSrc": "projects/p-3.jpg",
-    "description": "The EducationNest Website Content Management project involves the ongoing maintenance and content updates for the EducationNest platform. ",
+    "description": "The CertEd Technologies Website Content Management project involves the ongoing maintenance and content updates for the CertEd platform.",
     "description1": "As a freelancer, I am responsible for ensuring that webpages are regularly updated with relevant and engaging content to enhance user experience and meet the platform's educational objectives.",
-    "skills": ["Wordpress"],
-    "demo": "https://educationnest.com/courses/",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://certedtechnologies.com/blog",
     "source": "https://www.github.com"
   },
   {
